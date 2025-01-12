@@ -5,7 +5,7 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./:/Test_2
-    command: /bin/sh -c pytest -sv --alluredir=allure-results"
+    command: /bin/sh -c "pytest Moneybox/tests/Get_all_moneybox -sv --alluredir=allure-results"
     working_dir: /Test_2
 #
 #  report:
