@@ -1,0 +1,117 @@
+{
+  "uid" : "225829bb1035a4c8",
+  "name" : "test_04",
+  "fullName" : "Moneybox.tests.Get_all_moneybox.test_get_all.TestGetAll#test_04",
+  "historyId" : "61e31a9f4c3d793b305ee193cb1762f4",
+  "time" : {
+    "start" : 1736680207020,
+    "stop" : 1736680207711,
+    "duration" : 691
+  },
+  "description" : "Получение списка всех копилок (неавторизованный пользователь)",
+  "descriptionHtml" : "<p>Получение списка всех копилок (неавторизованный пользователь)</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1736680198850,
+      "stop" : 1736680198924,
+      "duration" : 74
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Получение списка всех копилок (неавторизованный пользователь)",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Получение списка всех копилок без авторизации",
+      "time" : {
+        "start" : 1736680207020,
+        "stop" : 1736680207710,
+        "duration" : 690
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверка статус кода",
+      "time" : {
+        "start" : 1736680207710,
+        "stop" : 1736680207710,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "GET /api/v1/moneybox/ Получение списка всех копилок"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Moneybox.tests.Get_all_moneybox"
+  }, {
+    "name" : "suite",
+    "value" : "test_get_all"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGetAll"
+  }, {
+    "name" : "host",
+    "value" : "6e8bbedb1e16"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Moneybox.tests.Get_all_moneybox.test_get_all"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "225829bb1035a4c8.json",
+  "parameterValues" : [ ]
+}

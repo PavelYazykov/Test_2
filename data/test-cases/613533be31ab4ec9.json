@@ -1,0 +1,282 @@
+{
+  "uid" : "613533be31ab4ec9",
+  "name" : "test_02",
+  "fullName" : "Moneybox.tests.Get_all_moneybox.test_is_archived_field.TestGetAll#test_02",
+  "historyId" : "fcf8128eeaf0557adb587dd455157c44",
+  "time" : {
+    "start" : 1736680212886,
+    "stop" : 1736680213121,
+    "duration" : 235
+  },
+  "description" : "Null",
+  "descriptionHtml" : "<p>Null</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "create_moneybox_and_delete",
+    "time" : {
+      "start" : 1736680211541,
+      "stop" : 1736680212885,
+      "duration" : 1344
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Авторизация",
+      "time" : {
+        "start" : 1736680211541,
+        "stop" : 1736680212661,
+        "duration" : 1120
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверка статус кода",
+      "time" : {
+        "start" : 1736680212662,
+        "stop" : 1736680212662,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Создание копилки",
+      "time" : {
+        "start" : 1736680212662,
+        "stop" : 1736680212885,
+        "duration" : 223
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверка статус кода",
+      "time" : {
+        "start" : 1736680212885,
+        "stop" : 1736680212885,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Получение данных",
+      "time" : {
+        "start" : 1736680212885,
+        "stop" : 1736680212885,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1736680198850,
+      "stop" : 1736680198924,
+      "duration" : 74
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "auth_fixture",
+    "time" : {
+      "start" : 1736680210804,
+      "stop" : 1736680211541,
+      "duration" : 737
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Авторизация",
+      "time" : {
+        "start" : 1736680210804,
+        "stop" : 1736680211541,
+        "duration" : 737
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверка статус кода",
+      "time" : {
+        "start" : 1736680211541,
+        "stop" : 1736680211541,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Null",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Получение списка всех копилок c выбором активные/архивные",
+      "time" : {
+        "start" : 1736680212886,
+        "stop" : 1736680213121,
+        "duration" : 235
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверка статус кода",
+      "time" : {
+        "start" : 1736680213121,
+        "stop" : 1736680213121,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "create_moneybox_and_delete::0",
+    "time" : {
+      "start" : 1736680213122,
+      "stop" : 1736680213363,
+      "duration" : 241
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Удаление копилки",
+      "time" : {
+        "start" : 1736680213122,
+        "stop" : 1736680213362,
+        "duration" : 240
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "GET /api/v1/moneybox/ Проверка поля is_archived"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Moneybox.tests.Get_all_moneybox"
+  }, {
+    "name" : "suite",
+    "value" : "test_is_archived_field"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGetAll"
+  }, {
+    "name" : "host",
+    "value" : "6e8bbedb1e16"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Moneybox.tests.Get_all_moneybox.test_is_archived_field"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "613533be31ab4ec9.json",
+  "parameterValues" : [ ]
+}

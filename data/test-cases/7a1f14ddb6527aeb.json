@@ -1,0 +1,237 @@
+{
+  "uid" : "7a1f14ddb6527aeb",
+  "name" : "test_02",
+  "fullName" : "Moneybox.tests.Get_all_moneybox.test_get_all.TestGetAll#test_02",
+  "historyId" : "ff6cba2f5d7f1115dce72ceba889b8a6",
+  "time" : {
+    "start" : 1736680202821,
+    "stop" : 1736680203454,
+    "duration" : 633
+  },
+  "description" : "Получение списка всех активных копилок",
+  "descriptionHtml" : "<p>Получение списка всех активных копилок</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1736680198850,
+      "stop" : 1736680198924,
+      "duration" : 74
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "create_moneybox_and_delete",
+    "time" : {
+      "start" : 1736680200972,
+      "stop" : 1736680202820,
+      "duration" : 1848
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Авторизация",
+      "time" : {
+        "start" : 1736680200972,
+        "stop" : 1736680202156,
+        "duration" : 1184
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверка статус кода",
+      "time" : {
+        "start" : 1736680202156,
+        "stop" : 1736680202156,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Создание копилки",
+      "time" : {
+        "start" : 1736680202156,
+        "stop" : 1736680202820,
+        "duration" : 664
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверка статус кода",
+      "time" : {
+        "start" : 1736680202820,
+        "stop" : 1736680202820,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Получение данных",
+      "time" : {
+        "start" : 1736680202820,
+        "stop" : 1736680202820,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Получение списка всех активных копилок",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Получение списка всех копилок c выбором активные/архивные",
+      "time" : {
+        "start" : 1736680202821,
+        "stop" : 1736680203454,
+        "duration" : 633
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверка статус кода",
+      "time" : {
+        "start" : 1736680203454,
+        "stop" : 1736680203454,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "create_moneybox_and_delete::0",
+    "time" : {
+      "start" : 1736680203455,
+      "stop" : 1736680204106,
+      "duration" : 651
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Удаление копилки",
+      "time" : {
+        "start" : 1736680203455,
+        "stop" : 1736680204106,
+        "duration" : 651
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "GET /api/v1/moneybox/ Получение списка всех копилок"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Moneybox.tests.Get_all_moneybox"
+  }, {
+    "name" : "suite",
+    "value" : "test_get_all"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGetAll"
+  }, {
+    "name" : "host",
+    "value" : "6e8bbedb1e16"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Moneybox.tests.Get_all_moneybox.test_get_all"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7a1f14ddb6527aeb.json",
+  "parameterValues" : [ ]
+}

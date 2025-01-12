@@ -1,0 +1,3 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"GET /api/v1/moneybox/ Получение списка всех копилок","","","0","0","4","0","0"
+"GET /api/v1/moneybox/ Проверка поля is_archived","","","0","0","3","0","0"

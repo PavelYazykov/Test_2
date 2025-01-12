@@ -1,0 +1,282 @@
+{
+  "uid" : "ec535168c597ba26",
+  "name" : "test_03",
+  "fullName" : "Moneybox.tests.Get_all_moneybox.test_get_all.TestGetAll#test_03",
+  "historyId" : "d4bcdb9d053e8bd443768a41212b1652",
+  "time" : {
+    "start" : 1736680205899,
+    "stop" : 1736680206776,
+    "duration" : 877
+  },
+  "description" : "Получение списка всех архивных копилок",
+  "descriptionHtml" : "<p>Получение списка всех архивных копилок</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1736680198850,
+      "stop" : 1736680198924,
+      "duration" : 74
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "create_moneybox_and_delete",
+    "time" : {
+      "start" : 1736680204107,
+      "stop" : 1736680205898,
+      "duration" : 1791
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Авторизация",
+      "time" : {
+        "start" : 1736680204108,
+        "stop" : 1736680205257,
+        "duration" : 1149
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверка статус кода",
+      "time" : {
+        "start" : 1736680205257,
+        "stop" : 1736680205257,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Создание копилки",
+      "time" : {
+        "start" : 1736680205258,
+        "stop" : 1736680205898,
+        "duration" : 640
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверка статус кода",
+      "time" : {
+        "start" : 1736680205898,
+        "stop" : 1736680205898,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Получение данных",
+      "time" : {
+        "start" : 1736680205898,
+        "stop" : 1736680205898,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Получение списка всех архивных копилок",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Перенос копилки в архив",
+      "time" : {
+        "start" : 1736680205899,
+        "stop" : 1736680206562,
+        "duration" : 663
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Внесение изменений в копилку",
+        "time" : {
+          "start" : 1736680205899,
+          "stop" : 1736680206562,
+          "duration" : 663
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Проверка статус кода",
+        "time" : {
+          "start" : 1736680206562,
+          "stop" : 1736680206562,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Получение списка всех копилок c выбором активные/архивные",
+      "time" : {
+        "start" : 1736680206562,
+        "stop" : 1736680206775,
+        "duration" : 213
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверка статус кода",
+      "time" : {
+        "start" : 1736680206775,
+        "stop" : 1736680206775,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "create_moneybox_and_delete::0",
+    "time" : {
+      "start" : 1736680206776,
+      "stop" : 1736680207018,
+      "duration" : 242
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Удаление копилки",
+      "time" : {
+        "start" : 1736680206776,
+        "stop" : 1736680207018,
+        "duration" : 242
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "GET /api/v1/moneybox/ Получение списка всех копилок"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Moneybox.tests.Get_all_moneybox"
+  }, {
+    "name" : "suite",
+    "value" : "test_get_all"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGetAll"
+  }, {
+    "name" : "host",
+    "value" : "6e8bbedb1e16"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Moneybox.tests.Get_all_moneybox.test_get_all"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ec535168c597ba26.json",
+  "parameterValues" : [ ]
+}

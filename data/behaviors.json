@@ -1,0 +1,104 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "GET /api/v1/moneybox/ Получение списка всех копилок",
+    "children" : [ {
+      "name" : "test_01",
+      "uid" : "56b52aadadaa9124",
+      "parentUid" : "c056a5ea1184f48bde21f2f7192861c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736680200294,
+        "stop" : 1736680200970,
+        "duration" : 676
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_02",
+      "uid" : "7a1f14ddb6527aeb",
+      "parentUid" : "c056a5ea1184f48bde21f2f7192861c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736680202821,
+        "stop" : 1736680203454,
+        "duration" : 633
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_03",
+      "uid" : "ec535168c597ba26",
+      "parentUid" : "c056a5ea1184f48bde21f2f7192861c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736680205899,
+        "stop" : 1736680206776,
+        "duration" : 877
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_04",
+      "uid" : "225829bb1035a4c8",
+      "parentUid" : "c056a5ea1184f48bde21f2f7192861c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736680207020,
+        "stop" : 1736680207711,
+        "duration" : 691
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c056a5ea1184f48bde21f2f7192861c0"
+  }, {
+    "name" : "GET /api/v1/moneybox/ Проверка поля is_archived",
+    "children" : [ {
+      "name" : "test_01",
+      "uid" : "858919c619d57609",
+      "parentUid" : "5258062ee757a70f04f597d032e0edeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736680210331,
+        "stop" : 1736680210574,
+        "duration" : 243
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_02",
+      "uid" : "613533be31ab4ec9",
+      "parentUid" : "5258062ee757a70f04f597d032e0edeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736680212886,
+        "stop" : 1736680213121,
+        "duration" : 235
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_03",
+      "uid" : "b0875914bb520774",
+      "parentUid" : "5258062ee757a70f04f597d032e0edeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736680215098,
+        "stop" : 1736680215332,
+        "duration" : 234
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5258062ee757a70f04f597d032e0edeb"
+  } ],
+  "name" : "behaviors"
+}

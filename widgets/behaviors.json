@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "c056a5ea1184f48bde21f2f7192861c0",
+    "name" : "GET /api/v1/moneybox/ Получение списка всех копилок",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "5258062ee757a70f04f597d032e0edeb",
+    "name" : "GET /api/v1/moneybox/ Проверка поля is_archived",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
+}
